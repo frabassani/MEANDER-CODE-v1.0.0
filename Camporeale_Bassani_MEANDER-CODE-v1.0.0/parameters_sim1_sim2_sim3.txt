@@ -1,0 +1,34 @@
+% Settings for three gravel-bed rivers with morphodynamic parameters representing 
+% real meandering rivers in the sub-resonant regime and increasing formative flow 
+
+% In script Camporeale_Bassani_main:  
+
+% Simulation 1
+NumSim = 1;
+Q0 = 500;      
+d50 = 0.03; 
+
+% Simulation 2
+NumSim = 2;
+Q0 = 1500;      
+d50 = 0.03;
+
+% Simulation 3
+NumSim = 3;
+Q0 = 3400;      
+d50 = 0.04; 
+   
+% The following parameters are the same for the three simulations:
+EE = 1e-6; bom = 0.6; deltat = 2;    
+
+% In script input_data (the same for the three simulations):
+bedload = 0;
+nocorr = 1;
+limitflag = 1;
+saveflag = 1;
+tempo_end = 100000; 
+lapse = 10;
+longshorttermflag = 1;
+Ncutoff_max = 30;
+g = 9.81; rho = 1000;  
+Delta = 1.65; mi=1e-6;
