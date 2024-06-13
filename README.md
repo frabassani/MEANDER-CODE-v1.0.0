@@ -6,7 +6,7 @@ It implements the two meandering models:
 (1) HIPS, developed by Hasegawa (1977) and Ikeda, Parker and Sawai (1981) and
 (2) ZS, developed by Zolezzi and Seminara (2001).
 
-It combines the codes for meandering dynamics of Camporeale et al. (2005) and the [Meander Centerline Migration Model]([url](https://github.com/FluidMechanicsUNIPD/Meander-Centerline-Migration-Model)) of Bogoni et al. (2017), which were both implemented in Fortran. 
+It combines the codes for meandering dynamics of Camporeale et al. (2005) and the [Meander Centerline Migration Model](https://github.com/FluidMechanicsUNIPD/Meander-Centerline-Migration-Model) of Bogoni et al. (2017), which were both implemented in Fortran. 
 Particularly, the bed characterization, the implementation of the ZS model and all related sub-functions are re-adapted from Bogoni et al. (2017), while all the other features (e.g., the numerical algorithm for the temporal evolution of the river planform, the local curvature, the shifting of the points according to the excess bank longitudinal velocities, the algorithm for cutoff search, etc.) are derived from Camporeale et al. (2005).
 In addition, the code is parallelized and extended to the case of varying flows.
 
