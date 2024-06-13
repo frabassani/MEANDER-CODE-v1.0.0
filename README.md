@@ -1,5 +1,5 @@
 # MEANDER-CODE-v1.0.0
-First release of the Matlab MEANDER CODE for river meandering dynamics
+First release of the Matlab MEANDER CODE for river meandering dynamics.
 
 This Matlab code was edited by Carlo Camporeale and Francesca Bassani (contacts information below).
 It implements the two meandering models:
