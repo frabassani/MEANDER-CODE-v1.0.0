@@ -21,7 +21,7 @@ Note that savings can be adapted at lines 51-80 of the function Itcurv1.
 
 
 
-
+# Additional information
 
 CONTACTS
 
